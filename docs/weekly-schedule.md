@@ -11,8 +11,8 @@ description: Weekly Schedule for OSL740
 
 | Learning Objectives and Tasks |	References |	Evaluation |
 | :--- | :--- | :--- |
-| **Create a CentOS Linux VM in VMware:** | **Lecture Notes:** | [Lab 1: Installing CentOS 7 with VMWare Workstation](/A-Labs/lab1.md) |
-| - Install CentOS (Full Install) in VMware Workstation application (create customized partitions) | - [Installing Linux](/slides/w1-l2.pptx) | **WARNING: If working from home, use VMware Workstation (Windows/Linux) or VMware Fusion (macOS).** |
+| **Create a CentOS Linux VM in VMware:** | **Lecture Notes:** [Installing Linux](/slides/w1-l2.pptx) | [Lab 1: Installing CentOS 7 with VMWare Workstation](/A-Labs/lab1.md) |
+| - Install CentOS (Full Install) in VMware Workstation application (create customized partitions) |  | **WARNING: If working from home, use VMware Workstation (Windows/Linux) or VMware Fusion (macOS).** |
 | - Shell Scripting |  | **Do not use any other virtualization software!** |
 | - Obtain System Information | | |
 
