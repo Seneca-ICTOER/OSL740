@@ -99,7 +99,7 @@ description: Weekly Schedule for OSL740
 |  | - [Advanced uses of the `awk` command](/slides/w9-l2.pptx) |  |
 |  | - Demonstration of Growing _/home_ partition using LVM: [YouTube](https://youtu.be/4fGQmw9RInYg) |  |
 |  | **Script Samples:** | |
-|  | [cars](/raw/files/cars.txt), [users2.txt](/raw/files/users2.txt), [awkFile1](/files/awkFile1.txt), [awkFile2](/files/awkFile2.txt), [awkFile3](/files/awkFile3.txt), [awkFile4](/files/awkFile4.txt) |  |
+|  | [cars](/files/cars.txt), [users2.txt](/files/users2.txt), [awkFile1](/files/awkFile1.txt), [awkFile2](/files/awkFile2.txt), [awkFile3](/files/awkFile3.txt), [awkFile4](/files/awkFile4.txt) |  |
 
 ## Week 10
 
