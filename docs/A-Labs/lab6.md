@@ -81,7 +81,7 @@ This diagram shows the current network configuration of your **c7host** machine 
   13. Proceed with changes, and click **Finish**.
   14. We will now reconfigure each of our VMs to use our new virtual network **network1**
 
-         1. Let's start with our **centos1 VM**. Double-click on your **centos1** VM, but instead of running the VM, click on the view menu, and select: **Details**
+         1. Let's start with our **centos1 VM**. Double-click on your **centos1** VM, but instead of running the VM, click on the **view** menu, and select: **Details**
 
          - (Note: the Virtual Machine window will appear - do not start virtual machine)
 
@@ -104,7 +104,7 @@ Although the private network has been setup via the **Virtual Machine Manager**,
   3. Within your **centos1 VM**, click **Applications** menu, then select **System Tools**, and then **Settings**.
   4. In the _Settings_ Dialog Box, click on the **Network** icon.
   5. For the **Wired** connection, click the **settings** button (The icon appears as a gear located at the bottom right-hand corner of the dialog box).
-  6. Select the **IPv4** tab. Change Address from _Automatic_ (DHCP) to **Manual**.
+  6. Select the **IPv4** tab. Change Address from _Automatic_ (_DHCP_) to **Manual**.
   7. In the Addresses section, enter the following information:
 
         + IP Address: **192.168.245.11**
@@ -221,6 +221,7 @@ Network service problems may not be entirely related to a "broken" network conne
 **Common Network Troubleshooting Tools**
 
 | **Purpose** |	**Command(s)** |
+| --- | --- |
 | Network Connectivity |	`ping`, `arp`, `ip` |
 | Network Service Status |	`ss` |
 
