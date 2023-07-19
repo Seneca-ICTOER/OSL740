@@ -120,7 +120,7 @@ rpm -qla dhcp
   5. Be advised: "**option** definitions common to all supported networks". Change the existing global options with the newer values shown below, if the **dhcpd.conf** file is empty, add them manually:
 
 ```bash
-option domain-name "ops245.org";
+option domain-name "osl740.org";
 option domain-name-servers 192.168.245.1;
 default-lease-time 1200;
 max-lease-time 3600;
