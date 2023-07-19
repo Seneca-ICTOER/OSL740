@@ -19,7 +19,7 @@ description: Landing Page for OSL740
 
 **This course is the second in a series of courses about Linux technologies**
 
-- OSL640 taught you to be a Linux user. In OSL740, you will move from being a Linux _user_ to being a Linux system _administrator_.
+- OSL640 taught you to be a Linux _user_. In OSL740, you will move from being a Linux _user_ to being a Linux system _administrator_.
 - As a system administrator, you will be responsible for installing, configuring, adjusting, maintaining, and troubleshooting the operation of computer systems. This is a lot of responsibility, and with that responsibility comes power. You will be able to change anything on the system, and you will also have the ability to damage or destroy the system.
 - In addition to manually configuring machines, you will learn to use bash and Python to automate some configuration tasks. Although this course will not cover the full features of either language, it will serve as an introduction to scripting and automation to make you a more capable and efficient system administrator.
 - In this course you use an external SSD drive (USB 3) with the lab computers to set up a Linux system. You will also set up at least four additional Linux systems using "Virtual Machines", and therefore gain experience with different types of system configurations as well as setting up networking between systems.
