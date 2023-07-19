@@ -70,7 +70,7 @@ We will now install the KVM package in order to create our remaining "nested" VM
 **Perform the following steps:**
 
   1. Log into your c7host machine.
-  2. perform a software update on your c7host VM by issuing the following command: 
+  2. perform a software update on your **c7host** VM by issuing the following command: 
 
 ```bash
 sudo yum update
@@ -285,7 +285,7 @@ ip address show
 
 Under most circumstances, a network install would be drawing the installation data from a server in the local network, allowing it to transmit data at higher speeds than we can achieve over the internet. If your download speed is slow enough that network installs are failing, it is acceptable to install these VMs from local media. However, you will still need to provide a kickstart file to Centos3.
 
-To do so, start the install process as normal for an installation from an iso file, but when presented with the menu giving you the option to 'Install CentOS 7' or 'Test this media & install CentOS 7', highlight 'Install CentOS7' and press `<tab>`. This will open a prompt at the bottom of the window for you to enter grub configuration options. Type `inst.ks=https://matrix.senecacollege.ca/~ahad.mammadov/OSL740/centos3-kickstart-local.cfg` and hit `<enter>`.
+To do so, start the install process as normal for an installation from an iso file, but when presented with the menu giving you the option to 'Install CentOS 7' or 'Test this media & install CentOS 7', highlight 'Install CentOS7' and press `<tab>`. This will open a prompt at the bottom of the window for you to enter grub configuration options. Type inst.ks=`https://matrix.senecacollege.ca/~ahad.mammadov/OSL740/centos3-kickstart-local.cfg` and hit `<enter>`.
 
 **VM Details:**
 
@@ -375,7 +375,14 @@ Failure to take the time to make and confirm backups can result in loss of lab w
         - What do these files contain?
 
   4. Use the command `sudo -i` and enter your password if prompted. You are now root until you use the command `exit` to return to your normal user account.
-  5. Change to the images directory by issuing the following command: `cd /var/lib/libvirt/images/`. Note that you did not need to use sudo, as you are already using elevated permissions.
+  5. Change to the images directory by issuing the following command:
+
+```bash
+cd /var/lib/libvirt/images/
+```
+
+   - Note that you did not need to use sudo, as you are already using elevated permissions.
+
   6. Make a compressed backup of your **centos1.qcow2**, **centos2.qcow2**, and **centos3.qcow2** files to your regular user's home directory by issuing each command - one at a time (create **backups** directory **within your regular user's home directory** before running these commands):
 
 ```bash
@@ -447,7 +454,7 @@ sudo virsh define centos4.xml
 ![Cinnamon Cog](/img/Cinnamon-2-245.png)
 
   8. Notice _Cinnamon_ (_Software Rendering_) is selected. The Cinnamon desktop environment has been installed on this VM. From this menu, you can select other installed desktop environments. This is how you switch between them. Write it down.
-  9. Login with the password **ops245**. Feel free to explore the new environment.
+  9. Login with the password ***ops245***. Feel free to explore the new environment.
   10. Prior to your practical test, you will be required to perform a similar operation to download, unzip and run a VM image for your practical test.
 
 **Shutting Down the Host while Virtual Machines are Running**
