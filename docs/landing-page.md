@@ -34,7 +34,7 @@ description: Landing Page for OSL740
 - **USB Flash Drive** (3.0 preferred)	**Minimum Capacity:** 16 GB
 - **Lab Logbook** (download & print Both sides per lab permitted)
   - NOTE: If you've taken this class in a previous semester, you MAY NOT bring that version of the lab logbook to any testing.	
-  - [Download Doc](https://wiki.cdot.senecacollege.ca/w/imgs/OSL740-Logbook-Online.doc)
+  - [Download Doc](/files/OSL740-Logbook-Online.doc)
 - Dos and Don'ts (**PLEASE READ**)
   - [Tips](/C-ExtraResources/tips.md)
 
