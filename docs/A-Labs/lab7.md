@@ -67,7 +67,7 @@ Protecting a computer network from unauthorized access is one of the many day-to
 
 ## Investigation 1: Installing And Maintaining An SSH Server
 
-So far, you have learned to use the **ssh** utility to establish a secure connection to a remote server in order to perform Linux administration tasks. You have issued the ssh command, which is actually the **client** application for ssh. In order to connect to a remote server (like your VMs, Matrix, etc) it needs to run the **SSH service** (i.e. the **ssh daemon**).
+So far, you have learned to use the **ssh** utility to establish a secure connection to a remote server in order to perform Linux administration tasks. You have issued the _ssh_ command, which is actually the **client** application for ssh. In order to connect to a remote server (like your VMs, Matrix, etc) it needs to run the **SSH service** (i.e. the **ssh daemon**).
 
 In this section, you will learn how to configure an SSH server and restart the ssh service for an existing VM. You will also learn how to configure, restart, and use SSH in order to create secure connections between your Linux machines (host as well as VMs).
 
@@ -522,7 +522,7 @@ cp /etc/sysconfig/iptables /etc/sysconfig/iptables.bk
   3. Delete the rule in the INPUT chain that allows SSH traffic from **anyone**, and replace it with one that only allows ssh traffic sent by your other machine (that is, your windows host, or other machine in your network).
   4. Note that this now means your VMs won't be able to ssh to your c7host, so add a rule that allows the entire network your VMs are on (192.168.245.0/24) to ssh to your c7host.
   5. Delete the rule in the INPUT chain that allows ICMP traffic from **anyone**, and replace it with one that only allows ssh traffic sent by your other machine.
-  6. Delete the rule in your **INPUT**' **and** _FORWARD_ **chains that** _REJECTs_ **any traffic you haven't** _ACCEPT_ed. You are better protected by the default **DROP** policy you set.
+  6. Delete the rule in your **INPUT** _**and** FORWARD **chains that** REJECTs **any traffic you haven't** ACCEPT_ ed. You are better protected by the default **DROP** policy you set.
   7. To make the iptables rules **persistent** (i.e. keeps rules when system restarts), you issue the command:
 
 ```bash
