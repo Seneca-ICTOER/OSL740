@@ -259,7 +259,7 @@ lease {
    option dhcp-message-type 5;
    option domain-name-servers 192.168.245.1;
    option dhcp-server-identifier 192.168.245.13;
-   option domain-name "ops245.org";
+   option domain-name "osl740.org";
    renew 2 2021/03/22 02:23:06;
    rebind 2 2021/03/22 02:31:52;
    expire 2 2021/03/22 02:34:22;
