@@ -285,7 +285,7 @@ ip address show
 
 Under most circumstances, a network install would be drawing the installation data from a server in the local network, allowing it to transmit data at higher speeds than we can achieve over the internet. If your download speed is slow enough that network installs are failing, it is acceptable to install these VMs from local media. However, you will still need to provide a kickstart file to Centos3.
 
-To do so, start the install process as normal for an installation from an iso file, but when presented with the menu giving you the option to 'Install CentOS 7' or 'Test this media & install CentOS 7', highlight 'Install CentOS7' and press `<tab>`. This will open a prompt at the bottom of the window for you to enter grub configuration options. Type inst.ks=`https://matrix.senecacollege.ca/~ahad.mammadov/OSL740/centos3-kickstart-local.cfg` and hit `<enter>`.
+To do so, start the install process as normal for an installation from an iso file, but when presented with the menu giving you the option to 'Install CentOS 7' or 'Test this media & install CentOS 7', highlight 'Install CentOS7' and press `<tab>`. This will open a prompt at the bottom of the window for you to enter grub configuration options. Type `inst.ks=https://matrix.senecacollege.ca/~ahad.mammadov/OSL740/centos3-kickstart-local.cfg` and hit `<enter>`.
 
 **VM Details:**
 
