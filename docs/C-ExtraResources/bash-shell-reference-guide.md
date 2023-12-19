@@ -2,7 +2,7 @@
 id: bash-shell-reference-guide
 title: Bash Shell Reference Guide
 sidebar_position: 4
-description: Bash Shell Reference Guide
+description: TBD
 ---
 
 # Bash Shell Reference Guide

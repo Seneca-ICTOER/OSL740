@@ -2,7 +2,7 @@
 id: scripting-exercise
 title: Scripting Exercise
 sidebar_position: 2
-description: Scripting Exercise for Students to Complete
+description: Scripting Exercise
 ---
 
 # Scripting Exercises

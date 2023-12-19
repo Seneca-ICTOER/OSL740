@@ -1,8 +1,8 @@
 ---
 id: bash-shell-tips
 title: Bash Shell Tips
-sidebar_position: 5
-description: Bash Shell Tips
+sidebar_position: 3
+description: TBD
 ---
 
 # Bash Shell Tips

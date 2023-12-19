@@ -1,8 +1,8 @@
 ---
 id: python-scripting-tips
 title: Python Scripting Tips
-sidebar_position: 3
-description: Python Scripting Tips
+sidebar_position: 5
+description: TBD
 ---
 
 # Python Scripting Tips
