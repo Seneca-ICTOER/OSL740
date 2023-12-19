@@ -23,7 +23,7 @@ This course is the second in a series of courses about Linux technologies
 - In this course you will use an external SSD drive (USB 3) with the lab computers on campus to set up a Linux system.
 - Alternatively you can use your own computer to complete the labs providing it meets the hardware requirements.
 - You will also set up at least four additional Linux systems using "Virtual Machines", and therefore gain experience with different types of system configurations as well as setting up networking between systems.
-- The next course in the OPS stream (OPS345) will expand on what you learn here and teach you to administer Linux servers (web servers, DNS servers, FTP servers, file sharing servers) in a cloud environment.
+- The next course in the stream (OSL840) will expand on what you learn here and teach you to administer Linux servers (web servers, DNS servers, FTP servers, file sharing servers) in a cloud environment.
 
 > ![caution](/img/caution.png)
 >
@@ -59,7 +59,7 @@ Most of the learning in this course occurs through the hands-on problem solving 
 3. **USB Flash Drive** (3.0 preferred) **Minimum Capacity:** 16 GB
 4. **Lab Logbook** (download & print Both sides per lab permitted)
 
-   - [Download Doc](/files/OPS245-Logbook-Online.doc)
+   - [Download Doc](/files/OSL740-Logbook-Online.doc)
    - **NOTE: If you've taken this class in a previous semester, you MAY NOT bring that version of the lab logbook to any testing.**
    - Your Professor will direct you on what they want you to do with the Lab Lag Book
 

@@ -2,7 +2,7 @@
 id: weekly-schedule
 title: Weekly Schedule
 sidebar_position: 2
-description: Weekly Schedule Page for OPS245
+description: Weekly Schedule Page for OSL740
 ---
 
 # Weekly Schedule
@@ -11,7 +11,7 @@ description: Weekly Schedule Page for OPS245
 
 | Learning Objectives and Tasks                                          | Lecture Notes                             | Evaluation                                                                                                         |
 | :--------------------------------------------------------------------- | :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| **Create a Debian Linux VM in VirtualBox:**                            | - [Welcome to OPS245](/slides/w1-l1.pptx) | [Lab 1: Installing Debian Linux with VirtualBox](/A-Labs/lab1-vbox.md)                                             |
+| **Create a Debian Linux VM in VirtualBox:**                            | - [Welcome to OSL740](/slides/w1-l1.pptx) | [Lab 1: Installing Debian Linux with VirtualBox](/A-Labs/lab1-vbox.md)                                             |
 | - Install Debian (Full Install) as a VM (create customized partitions) | - [Installing Linux](/slides/w1-l2.pptx)  | [Lab 1:Installing Debian Linux with VMWare Workstation](/A-Labs/lab1-vmware.md)                                    |
 | - Obtain System Information                                            |                                           | **WARNING: If working on your own device, install VirtualBox from the website, do not use the MyApps application** |
 |                                                                        |                                           | **Do not use any other virtualization software!**                                                                  |
@@ -20,7 +20,7 @@ description: Weekly Schedule Page for OPS245
 
 | **Learning Objectives and Tasks** | **Lecture Notes:**                                                                            | **Evaluation** |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------- | :------------- |
-| **Post-Installation Tasks:**      | **Scripting Practice:** [OPS245 Scripting Exercises](/C-ExtraResources/scripting-exercise.md) |                |
+| **Post-Installation Tasks:**      | **Scripting Practice:** [OSL740 Scripting Exercises](/C-ExtraResources/scripting-exercise.md) |                |
 | - Post-Install Commands           |                                                                                               |                |
 
 ## Week 3

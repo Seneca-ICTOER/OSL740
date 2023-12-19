@@ -2,7 +2,7 @@
 id: tips
 title: Tips
 sidebar_position: 1
-description: Tips for OPS245
+description: Tips for OSL740
 ---
 
 # Tips
@@ -11,9 +11,9 @@ description: Tips for OPS245
 
 ### Follow Lab Instructions from the Menu Bar on the Left
 
-Do NOT use a Net-search to get to the OPS245 notes. You might be sent to an older OPS245 lab that is outdated and will NOT be accepted for lab sign-off!
+Do NOT use a Net-search to get to the OSL740 notes. You might be sent to an older OSL740 lab that is outdated and will NOT be accepted for lab sign-off!
 
-All lab instructions used for OPS245 are the pages in the **Labs** folder on the left side menu
+All lab instructions used for OSL740 are the pages in the **Labs** folder on the left side menu
 
 ### Read, Read, Read!
 
@@ -35,7 +35,7 @@ Use an adhesive label and permanent marker, or a white marker on the black cover
 
 You may have your hard drive tray stolen which will result in lost work!
 
-### Do not share your OPS245 disk drive with another course.
+### Do not share your OSL740 disk drive with another course.
 
 The work you do in other courses may damage the Linux parts on your drive.
 
