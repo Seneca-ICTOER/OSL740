@@ -651,7 +651,7 @@ If you have successfully completed this lab, make a new backup of your virtual m
 3. Download the Lab 3 check script:
 
 ```bash
-wget https://raw.githubusercontent.com/OPS245/debian-labs/main/lab3-check.bash
+wget https://raw.githubusercontent.com/jmcarman/osl740-debian-labs/main/lab3-check.bash
 ```
 
 4. Give the **lab3-check.bash** file execute permissions (for the file owner).

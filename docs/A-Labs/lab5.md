@@ -591,7 +591,7 @@ Both the configuration of the deb2 VM and the contents of the disk image have ch
 4. Issue the Linux command:
 
 ```bash
-wget https://raw.githubusercontent.com/OPS245/debian-labs/main/lab5-check.bash
+wget https://raw.githubusercontent.com/jmcarman/osl740-debian-labs/main/lab5-check.bash
 ```
 
 5. Give the **lab5-check.bash** file execute permissions (for the file owner).

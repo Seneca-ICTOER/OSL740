@@ -753,7 +753,7 @@ If you have successfully completed this lab, make a new backup of all of your vi
 4. Issue the command:
 
 ```bash
-wget https://raw.githubusercontent.com/OPS245/debian-labs/main/lab2-check.bash
+wget https://raw.githubusercontent.com/jmcarman/osl740-debian-labs/main/lab2-check.bash
 ```
 
 5. Give the **lab2-check.bash** execute permissions for the file owner.

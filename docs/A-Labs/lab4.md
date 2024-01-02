@@ -795,7 +795,7 @@ Follow your Professors submission instructions for lab 4 on Blackboard.
 4. Issue the Linux command:
 
 ```bash
-wget https://raw.githubusercontent.com/OPS245/debian-labs/main/lab4-check.bash
+wget https://raw.githubusercontent.com/jmcarman/osl740-debian-labs/main/lab4-check.bash
 ```
 
 5. Give the **lab4-check.bash** file execute permissions (for the file owner).

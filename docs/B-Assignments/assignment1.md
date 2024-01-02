@@ -17,9 +17,9 @@ This assignment will be completed inside your local c7host virtual machine using
 
 ## Create a new virtual machine
 
-Create a new Centos 7 VM (Minimal installation) using the following information. You may refer to your lab instructions, logbook and google for any of the steps. The installation process is the same as **centos1** in **Lab 2**.
+Create a new Debian 12 VM (Minimal installation) in **VMWare**, using the following information. You may refer to your lab instructions, logbook and google for any of the steps. The installation process is the same as **debhost** in **Lab 1**. When asked for partition information, use the defaults.
 
-- Install a new CentOS Minimal VM. (Do **not** install the GUI version.)
+- Install a new Debian Minimal VM. (Do **not** install the GUI version.)
 - The virtual machine name and the internal hostname for the machine must be your Seneca username. (Example: cjohnson30)
 - The regular user created during installation must also be your Seneca username.
 - Ensure LVM is used in your installation partitioning.
@@ -32,12 +32,11 @@ The rest of this assignment should be done after the installation is completed s
 
 ## Post Installation Tasks
 
-Use `yum` to accomplish the following:
+Use `apt` to accomplish the following:
 
-- Find and install the Cinnamon desktop environment: `yum install cinnamon`
+- Find and install the Cinnamon desktop environment: `apt install cinnamon`
 - Do the rest of the assignment (including the assignment submission) while running Cinnamon. (Hint: Think about default targets.)
 - Update the system
-- Disable SELinux
 - Stop, disable and remove firewalld
 - Install, start and enable iptables-services
 
@@ -52,19 +51,19 @@ Create a new Linux Mint VM (Cinnamon Edition) in **VMWare**, using the following
 - Install **Linux Mint** as the OS for the new virtual machine (VMWare).
 
 ## Post Installation Tasks
-- Update the system using `apt` instead of `yum`. The rest of the process is the same.
+- Update the system using `apt`.
 - Use `apt` to install `Chromium`.  You may need to use Google to accomplish this.
 
 ## Submission
 
 Submit the following screenshots on BlackBoard that show you've completed the work.
 
-### Centos VM
-- Centos VM installed
+### Debian VM
+- Debian VM installed
 - Output of the hostname command
 - Cinnamon desktop installed and in use
-- SELinux disabled
-- IPTables service runnign and enabled
+- IPTables service running and enabled
+- Chromium installed
 
 ### Linux Mint VM
 - Linux Mint VM installed
@@ -74,10 +73,10 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 
 | Task |	Maximum mark |	Actual mark |
 | --- | --- | --- |
-| New CentOS VM installed (Seneca username) |	5	| |
+| New Debian VM installed (Seneca username) |	5	| |
 | Correct hostname (Seneca username) |	2	| |
 | Using Cinnamon |	2	| |
-| SELinux disabled |	2	| |
+| Chromium installed in Debian VM |	2	| |
 | IPTables service running and enabled |	2	| |
 | Linux Mint VM installed |	5	| |
 | Chromium installed in Mint VM |	2	| |

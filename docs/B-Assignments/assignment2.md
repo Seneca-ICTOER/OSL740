@@ -9,7 +9,7 @@ description: TBD
 ## Overview
 In Assignment 2 you will install configure a LAMP stack, which is an acronym that originally stood for Linux, Apache, MySQL and PHP. LAMP is a commonly used acronym and combination of technologies for hosting web based applications. In fact, newer technologies that have come along to replace elements of the LAMP stack tend to pick their name based on the letter in the acronym that they are providing services for (ie MariaDB or MongoDB, Perl or Python). You will then use this platform to install and host Wordpress (a popular free and open source content management system or CMS). You will also configure your firewall to further enhance the security of your computer system.
 
-This assignment will be completed inside your centos3 VM.
+This assignment will be completed inside your deb3 VM.
 
 ## Important information
 **Weight**: 15% of your overall grade
@@ -18,9 +18,9 @@ This assignment will be completed inside your centos3 VM.
 
 **Submission**: You will be submitting your completed work through a series of screenshots on Blackboard. (See below.)
 
-**NOTE:** Do this assignment inside the **centos3** virtual machine and use the user (your user ie: **jason.carman** or **ataur.rahman**) you created in **Lab 4**.
+**NOTE:** Do this assignment inside the **deb3** virtual machine and use the user (your user ie: **jason.carman** or **ataur.rahman**) you created in **Lab 4**.
 
-**NOTE:** It is YOUR responsibility to backup your **centos3** VM for this assignment! You are required to frequently backup your VM prior to exiting a work session during this assignment. Your instructor will NOT accept the fact that your hard disk crashed and lost all of your work. If you properly backed up your VM images and xml configuration files to a USB, then you can purchase a new hard-disk or wipe and recreate your hard disk and restore your VMs.
+**NOTE:** It is YOUR responsibility to backup your **deb3** VM for this assignment! You are required to frequently backup your VM prior to exiting a work session during this assignment. Your instructor will NOT accept the fact that your hard disk crashed and lost all of your work. If you properly backed up your VM images and xml configuration files to a USB, then you can purchase a new hard-disk or wipe and recreate your hard disk and restore your VMs.
 
 ## Updating and Installing Packages
 Before proceeding make sure you have updated your system using yum.
@@ -116,7 +116,7 @@ Write a second post on your blog including for example:
 Make your posts look professional. That means use good english, headings, bullet or numbered lists, etc.
 
 ## Submission
-On your **centos3** vm issue the following command to download the check script.
+On your **deb3** vm issue the following command to download the check script.
 
 ```bash
 git clone https://github.com/OPS245/a2-check

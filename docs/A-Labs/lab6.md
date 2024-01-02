@@ -418,7 +418,7 @@ If you have successfully completed this lab, make a new backup of your virtual m
 4. Issue the Linux command:
 
 ```bash
-wget https://raw.githubusercontent.com/OPS245/debian-labs/main/lab6-check.bash
+wget https://raw.githubusercontent.com/jmcarman/osl740-debian-labs/main/lab6-check.bash
 ```
 
 5. Give the **lab6-check.bash** file execute permissions (for the file owner).
