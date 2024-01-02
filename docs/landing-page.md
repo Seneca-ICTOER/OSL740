@@ -6,11 +6,11 @@ slug: /
 description: Landing Home Page for OSL740
 ---
 
-# Welcome to OSL740 - Open Systems Server
+# Welcome to OSL740 - Administration of Open Source Systems
 
 ## Quick Links
 
-| [Weekly Schedule](./weekly-schedule.md) | [Course Outline](https://apps.senecacollege.ca/ssos/findOutline.do?schoolCode=SICT&termCode=20233&subjectCode=OSL740) | [Assignment 1](/B-Assignments/assignment1.md) | [Assignment 2](/B-Assignments/assignment2.md) |
+| [Weekly Schedule](./weekly-schedule.md) | [Course Outline](https://apps.senecapolytechnic.ca/ssos/findOutline.do?isLoggedIn=&subjectOrAndTitle=%5BOSL740%5D+Administration+of+Open+Source+Systems&schoolCode=0s867160) | [Assignment 1](/B-Assignments/assignment1.md) | [Assignment 2](/B-Assignments/assignment2.md) |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
 
 ## What This Course is About
@@ -59,7 +59,7 @@ Most of the learning in this course occurs through the hands-on problem solving 
 3. **USB Flash Drive** (3.0 preferred) **Minimum Capacity:** 16 GB
 4. **Lab Logbook** (download & print Both sides per lab permitted)
 
-   - [Download Doc](/files/OSL740-Logbook-Online.doc)
+   - [Download Doc](/files/OSL740-Logbook-Online.docx)
    - **NOTE: If you've taken this class in a previous semester, you MAY NOT bring that version of the lab logbook to any testing.**
    - Your Professor will direct you on what they want you to do with the Lab Lag Book
 
@@ -82,7 +82,7 @@ Most of the learning in this course occurs through the hands-on problem solving 
 
 | **Evaluation**             | **Marks** |
 | -------------------------- | --------- |
-| Labs and Quizzes           | 25%       |
+| Labs and Quizzes           | 20%       |
 | Assignments (minimum of 2) | 30%       |
 | Tests (minimum of 1)       | 20%       |
-| Final Assessment           | 25%       |
+| Final Assessment           | 30%       |
