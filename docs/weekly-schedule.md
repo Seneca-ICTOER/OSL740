@@ -20,7 +20,7 @@ description: Weekly Schedule Page for OSL740
 
 | **Learning Objectives and Tasks** | **Lecture Notes:**                                                                            | **Evaluation** |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------- | :------------- |
-| **Post-Installation Tasks:**      | **Scripting Practice:** [OSL740 Scripting Exercises](/C-ExtraResources/scripting-exercise.md) |                |
+| **Post-Installation Tasks:**      |  |                |
 | - Post-Install Commands           |                                                                                               |                |
 
 ## Week 3
