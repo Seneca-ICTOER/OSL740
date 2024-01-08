@@ -524,7 +524,7 @@ You may have learned about creating and running Bash Shell Scripts in your ULI10
 3. Add a line that will print out the heading **System Report**
 
 ```
-echo 'System Report'
+echo "System Report"
 ```
 
 4. Save your script and run it. Does it work?
