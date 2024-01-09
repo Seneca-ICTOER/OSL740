@@ -11,7 +11,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                                          | Lecture Notes                             | Evaluation                                                                                                         |
 | :--------------------------------------------------------------------- | :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| **Create a Debian Linux VM in VirtualBox:**                            | - [Week 1 Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyygdus3ZYkniqTtMnbJzp39VU0KjVjgrh4B_ZEc2RGVIWFqjkQm6rcO1cY7UcvR9ktyUOvAVU8aOX/pub?start=false&loop=false&delayms=5000) | [Lab 1:Installing Debian Linux with VMWare Workstation](/A-Labs/lab1-vmware.md) 
+| **Create a Debian Linux VM in VirtualBox:**                            | - [Week 1 Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyygdus3ZYkniqTtMnbJzp39VU0KjVjgrh4B_ZEc2RGVIWFqjkQm6rcO1cY7UcvR9ktyUOvAVU8aOX/pub?start=false&loop=false&delayms=5000) | [Lab 1:Installing Debian Linux with VMWare Workstation](/A-Labs/lab1-vmware-graphic-install.md) 
 | - Install Debian (Full Install) as a VM (create customized partitions) | | |
 | - Obtain System Information  | | **WARNING: If working on your own device, install VirtualBox from the website, do not use the MyApps application** |
 | | | **Do not use any other virtualization software!** |

@@ -1,8 +1,8 @@
 ---
 id: lab8
 title: Lab 8
-sidebar_position: 9
-description: TBD
+sidebar_position: 10
+description: DHCP
 ---
 
 # Lab 8: Setup and Configure a DHCP Server

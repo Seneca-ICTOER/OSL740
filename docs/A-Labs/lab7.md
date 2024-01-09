@@ -1,8 +1,8 @@
 ---
 id: lab7
 title: Lab 7
-sidebar_position: 8
-description: TBD
+sidebar_position: 9
+description: SSH
 ---
 
 # Lab 7: Setup and Configure SSH
