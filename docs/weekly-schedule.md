@@ -20,7 +20,7 @@ description: Weekly Schedule Page for OSL740
 
 | **Learning Objectives and Tasks** | **Lecture Notes:**                                                                            | **Evaluation** |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------- | :------------- |
-| **Post-Installation Tasks:**  |  | [Lab 1 Investigation 4](https://seneca-ictoer.github.io/OSL740/A-Labs/lab1-vmware#investigation-4-using-bash-scripting-to-generate-system-information-reports) |
+| **Post-Installation Tasks:**  | - [Week 2 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTdYgKDf9mAkaMkN0tH588Li4vqQHam-tcCupg4937_TUnrfqUhMRKJLL5gDapqKwiDdSUOh-QAcqbf/pub?start=false&loop=false&delayms=5000) | [Lab 1 Investigation 4 & 5](https://seneca-ictoer.github.io/OSL740/A-Labs/lab1-vmware#investigation-4-using-bash-scripting-to-generate-system-information-reports) |
 | - Post-Install Commands | | |
 
 ## Week 3
