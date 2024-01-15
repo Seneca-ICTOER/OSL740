@@ -153,7 +153,7 @@ If you will be completing the course work on Seneca Lab computers you will need 
 10. Select: **Custom** --> Next
 11. Set Hardware Compatibility: **Workstation 17.x** --> Next
 12. Select: **I will install the operating system later** --> Next
-13. Select: **Linux and Version Debian 11.x 64 bit** --> Next
+13. Select: **Linux and Version Debian 12.x 64 bit** --> Next
 14. Virtual Machine Name: **debhost**
 15. Check the location --> Next
 
