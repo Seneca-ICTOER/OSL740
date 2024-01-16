@@ -160,16 +160,18 @@ If you will be completing the course work on Seneca Lab computers you will need 
 ![vmware3](/img/vmware3.png)
 
 16. Number of processors: **4** --> Next
-17. Memory for Virtual Machine: **8192 MB** --> Next
-18. Network type: **Use network address translation (NAT)** --> Next
-19. SCSI Controller: **LSI Logic (Recommended)** --> Next
-20. Select **Create a new virtual disk** --> Next
-21. Set the *Maximum disk size* to **240GB** --> Next
-22. Disk file: **debhost.vmdk** --> Next
-23. Review the settings and click on Finish
-24. ***Caution:*** Before you start the VM we need to make some changes
-25. Click on *Edit* the virtual machine settings
-26. Select *Processors* and check: **Virtualize Intel VT-x/EPT or AMD-V/RVI**
+17. Number of Cores: **1** --> Next
+18. Memory for Virtual Machine: **8192 MB** --> Next
+19. Network type: **Use network address translation (NAT)** --> Next
+20. SCSI Controller: **LSI Logic (Recommended)** --> Next
+21. Select **Create a new virtual disk** --> Next
+22. Set the *Maximum disk size* to **240GB** --> Next
+23. Select **Store virtual disk as a single file** --> Next
+24. Disk file: **debhost.vmdk** --> Next
+25. Review the settings and click on Finish
+26. ***Caution:*** Before you start the VM we need to make some changes
+27. Click on *Edit* the virtual machine settings
+28. Select *Processors* and check: **Virtualize Intel VT-x/EPT or AMD-V/RVI**
 
 ![vmware5](/img/vmware5.png)
 
