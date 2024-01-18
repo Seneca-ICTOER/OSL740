@@ -17,9 +17,9 @@ This assignment will be completed inside your local c7host virtual machine using
 
 ## Create a new virtual machine
 
-Create a new Debian 12 VM (Minimal installation) in **VMWare**, using the following information. You may refer to your lab instructions, logbook and google for any of the steps. The installation process is the same as **debhost** in **Lab 1**. When asked for partition information, use the defaults.
+Create a new Ubuntu 22.04 VM (Minimal installation) in **VMWare**, using the following information. You may refer to your lab instructions, logbook and google for any of the steps. The installation process is the same as **debhost** in **Lab 1**. When asked for partition information, use the defaults.
 
-- Install a new Debian Minimal VM. (Do **not** install the GUI version.)
+- Install a new Ubuntu Minimal VM. (Do **not** install the GUI version.)
 - The virtual machine name and the internal hostname for the machine must be your Seneca username. (Example: cjohnson30)
 - The regular user created during installation must also be your Seneca username.
 - Ensure LVM is used in your installation partitioning.
@@ -58,8 +58,8 @@ Create a new Linux Mint VM (Cinnamon Edition) in **VMWare**, using the following
 
 Submit the following screenshots on BlackBoard that show you've completed the work.
 
-### Debian VM
-- Debian VM installed
+### Ubuntu VM
+- Ubuntu VM installed
 - Output of the hostname command
 - Cinnamon desktop installed and in use
 - IPTables service running and enabled
@@ -73,11 +73,16 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 
 | Task |	Maximum mark |	Actual mark |
 | --- | --- | --- |
-| New Debian VM installed (Seneca username) |	5	| |
+| New Ubuntu VM installed (Seneca username) |	5	| |
 | Correct hostname (Seneca username) |	2	| |
 | Using Cinnamon |	2	| |
-| Chromium installed in Debian VM |	2	| |
+| Chromium installed in Ubuntu VM |	2	| |
 | IPTables service running and enabled |	2	| |
 | Linux Mint VM installed |	5	| |
 | Chromium installed in Mint VM |	2	| |
 | **Total** |	20	| |
+
+## Resources
+
+[Ubuntu](https://ubuntu.com)
+[Linux Mint](https://linuxmint.com)
