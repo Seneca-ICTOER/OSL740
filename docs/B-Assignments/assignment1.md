@@ -7,9 +7,7 @@ description: TBD
 
 # Assignment 1
 
-The purpose of the OPS245 assignments is to showcase your abilities in the course thus far, and conduct a bit of independent research. Some of what you'll be asked to complete will be familiar to you, while other parts will require you to think a bit and do some light Googling. It's expected you won't have all the answers right away, but you can find them. **As a result, unlike labs, your professor cannot provide any help or troubleshooting for your assignment.**
-
-This assignment will be completed inside your local c7host virtual machine using additional KVM/QEMU nested VMs.
+The purpose of the OSL740 assignments is to showcase your abilities in the course thus far, and conduct a bit of independent research. Some of what you'll be asked to complete will be familiar to you, while other parts will require you to think a bit and do some light Googling. It's expected you won't have all the answers right away, but you can find them. **As a result, unlike labs, your professor cannot provide any help or troubleshooting for your assignment.**
 
 **Weight**: 15% of your overall grade
 
@@ -83,6 +81,5 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 | **Total** |	20	| |
 
 ## Resources
-
-[Ubuntu](https://ubuntu.com)
-[Linux Mint](https://linuxmint.com)
+- [Ubuntu](https://ubuntu.com)
+- [Linux Mint](https://linuxmint.com)
