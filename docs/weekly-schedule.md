@@ -11,7 +11,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                                          | Lecture Notes                             | Evaluation                                                                                                         |
 | :--------------------------------------------------------------------- | :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| **Create a Debian Linux VM in VirtualBox:**                            | - [Week 1 Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyygdus3ZYkniqTtMnbJzp39VU0KjVjgrh4B_ZEc2RGVIWFqjkQm6rcO1cY7UcvR9ktyUOvAVU8aOX/pub?start=false&loop=false&delayms=5000) | [Lab 1:Installing Debian Linux with VMWare Workstation](/A-Labs/lab1-vmware-graphic-install.md) 
+| **Create a Debian Linux VM in VirtualBox:**                            | - [Week 1 Slides](https://docs.google.com/presentation/d/e/2PACX-1vSyygdus3ZYkniqTtMnbJzp39VU0KjVjgrh4B_ZEc2RGVIWFqjkQm6rcO1cY7UcvR9ktyUOvAVU8aOX/pub?start=false&loop=false&delayms=5000) | [Lab 1 Investigation 1, 2 & 3: Installing Debian Linux with VMWare Workstation](/A-Labs/lab1-vmware-graphic-install.md) 
 | - Install Debian (Full Install) as a VM (create customized partitions) | | |
 | - Obtain System Information  | | **WARNING: If working on your own device, install VirtualBox from the website, do not use the MyApps application** |
 | | | **Do not use any other virtualization software!** |
@@ -27,7 +27,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                  | **Lecture Notes:**                                  | Evaluation                                                    |
 | :--------------------------------------------- | :-------------------------------------------------- | :------------------------------------------------------------ |
-| **Creating & Using Virtual Machines**          | - [Installing Virtual Machines](/slides/w3-l1.pptx) | [Lab 2: Creating and Using Virtual Machines](/A-Labs/lab2.md) |
+| **Creating & Using Virtual Machines**          | - [Week 3 Slides](https://docs.google.com/presentation/d/e/2PACX-1vQNKEuFCxz-Ry7HzR-9mpLNgFvo26WHomumEi3ordepELGaj_f4aZe396GdKVYKaPuu4TbJxqT_QY81/pub?start=false&loop=false&delayms=3000) | [Lab 2 Investigation 1 & 2: Creating and Using Virtual Machines](/A-Labs/lab2.md) |
 | - Installing and Using Virtualization Software |                                                     |                                                               |
 | - Installing Guest VMs                         |                                                     |                                                               |
 
