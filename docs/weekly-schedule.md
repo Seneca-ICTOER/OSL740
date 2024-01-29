@@ -35,7 +35,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                      | **Lecture Notes:**                                | Evaluation |
 | :------------------------------------------------- | :------------------------------------------------ | :--------- |
-| **Creating & Using Virtual Machines / Continued:** | - [Managing Virtual Machines](/slides/w4-l1.pptx) | [Lab 2 Investigation 3 & 4](https://seneca-ictoer.github.io/OSL740/A-Labs/lab2#investigation-3-managing-virtual-machines-kvm)           |
+| **Creating & Using Virtual Machines / Continued:** | - [Week 4 Slides](https://docs.google.com/presentation/d/e/2PACX-1vS48bFOMi6LZkeT-JP9z2dWj_Lcc5WyXghm_EdpSzPDcYmuR60dgFeMFiq1FkIMHRASoYE9iu-KRw1Y/pub?start=false&loop=false&delayms=3000) | [Lab 2 Investigation 3 & 4](https://seneca-ictoer.github.io/OSL740/A-Labs/lab2#investigation-3-managing-virtual-machines-kvm)           |
 | - Manipulating Virtual Machines                    |                                                   |            |
 | - Backing-up Virtual Machines                      |                                                   |            |
 | - Manipulating Virtual Machines                    |                                                   |            |
