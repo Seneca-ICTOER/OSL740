@@ -43,7 +43,7 @@ Use `apt` to accomplish the following:
 ## Install a Second Linux Distribution as a Virtual Machine
 Create a new Linux Mint VM (Cinnamon Edition) in **VMWare**, using the following information. Use the default partitioning and installation options.
 
-- **VM name &amp; Hostname:** mint-youruser (Example: jmcarman-mint)
+- **VM name &amp; Hostname:** youruser-mint (Example: jmcarman-mint)
 - **Username:** Your Seneca Username
 - **Memory:** 8192 MB
 - **Disk space:** 20 GB
@@ -65,11 +65,11 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 - Ubuntu VM installed
 - Output of the hostname command
 - Cinnamon desktop installed and in use
-- IPTables service running and enabled
 - Chromium installed
 
 ### Linux Mint VM
 - Linux Mint VM installed
+- Output of the hostname command
 - Chromium installed
 
 ## Rubric
@@ -80,8 +80,8 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 | Correct hostname (Seneca username) |	2	| |
 | Using Cinnamon |	2	| |
 | Chromium installed in Ubuntu VM |	2	| |
-| IPTables service running and enabled |	2	| |
 | Linux Mint VM installed |	5	| |
+| Correct hostname (Seneca username) | 2 | |
 | Chromium installed in Mint VM |	2	| |
 | **Total** |	20	| |
 
