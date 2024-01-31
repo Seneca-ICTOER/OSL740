@@ -15,15 +15,16 @@ The purpose of the OSL740 assignments is to showcase your abilities in the cours
 
 ## Create a new virtual machine
 
-Create a new Ubuntu 22.04 VM (Minimal installation) in **VMWare**, using the following information. You may refer to your lab instructions, logbook and google for any of the steps. The installation process is the same as **debhost** in **Lab 1**. When asked for partition information, use the defaults.
+Create a new Ubuntu 22.04 Desktop VM (Normal installation) in **VMWare**, using the following information. You may refer to your lab instructions, logbook and google for any of the steps. The installation process is the same as **debhost** in **Lab 1**. When asked for partition information, use the defaults.
 
-- Install a new Ubuntu Minimal VM. (Do **not** install the GUI version.)
-- The virtual machine name and the internal hostname for the machine must be your Seneca username. (Example: cjohnson30)
+- Install a new Ubuntu VM.
+- The virtual machine name and the internal hostname for the machine must include your Seneca username in the following format (Example: jmcarman-ubuntu)
 - The regular user created during installation must also be your Seneca username.
 - Ensure LVM is used in your installation partitioning.
-- **Memory:** 2048 MB
+- **Memory:** 8192 MB
 - **Disk space:** 20 GB
-- **CPUs:** 2
+- **Number of Processors:** 4
+- **Number of Cores:** 1
 - Use your existing virtual network
 
 The rest of this assignment should be done after the installation is completed successfully.
@@ -41,11 +42,13 @@ Use `apt` to accomplish the following:
 ## Install a Second Linux Distribution as a Virtual Machine
 Create a new Linux Mint VM (Cinnamon Edition) in **VMWare**, using the following information. Use the default partitioning and installation options.
 
+- **VM name &amp; Hostname:** mint-youruser (Example: jmcarman-mint)
 - **Username:** Your Seneca Username
-- **Memory:** 2048 MB
+- **Memory:** 8192 MB
 - **Disk space:** 20 GB
-- **CPUs:** 2
-- The virtual machine name and the hostname for the machine must be your learn user ID followed by **-mint**. For example asmith15-mint
+- **Number of Processors:** 4
+- **Number of Cores:** 1
+- The virtual machine name and the hostname for the machine must be your learn user ID followed by **-mint**. For example jmcarman-mint
 - Install **Linux Mint** as the OS for the new virtual machine (VMWare).
 
 ## Post Installation Tasks
