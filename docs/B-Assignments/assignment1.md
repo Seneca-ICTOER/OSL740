@@ -26,6 +26,7 @@ Create a new Ubuntu 22.04 Desktop VM (Normal installation) in **VMWare**, using 
 - **Number of Processors:** 4
 - **Number of Cores:** 1
 - Use your existing virtual network
+- **Remember:** Select "store as a single file" for the virtual hard disk.
 
 The rest of this assignment should be done after the installation is completed successfully.
 
@@ -34,10 +35,10 @@ The rest of this assignment should be done after the installation is completed s
 Use `apt` to accomplish the following:
 
 - Find and install the Cinnamon desktop environment: `apt install cinnamon`
-- Do the rest of the assignment (including the assignment submission) while running Cinnamon. (Hint: Think about default targets.)
+- Do the rest of the assignment (including the assignment submission) while running Cinnamon.
 - Update the system
-- Stop, disable and remove firewalld
-- Install, start and enable iptables-services
+- Use systemctl to confirm the default firewall is running (Hint: the default firewall in Ubuntu is **ufw**)
+- Use `apt` to install `Chromium`.  You may need to use Google to accomplish this.
 
 ## Install a Second Linux Distribution as a Virtual Machine
 Create a new Linux Mint VM (Cinnamon Edition) in **VMWare**, using the following information. Use the default partitioning and installation options.
@@ -50,6 +51,7 @@ Create a new Linux Mint VM (Cinnamon Edition) in **VMWare**, using the following
 - **Number of Cores:** 1
 - The virtual machine name and the hostname for the machine must be your learn user ID followed by **-mint**. For example jmcarman-mint
 - Install **Linux Mint** as the OS for the new virtual machine (VMWare).
+- **Remember:** Select "store as a single file" for the virtual hard disk.
 
 ## Post Installation Tasks
 - Update the system using `apt`.
