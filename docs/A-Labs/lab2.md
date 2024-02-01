@@ -61,7 +61,7 @@ At the end of Lab 2, your hypervisor (VirtualBox or VMWare) application will con
 
 ### Part 1: Install KVM Virtualisation Application
 
-We will now install the KVM package in order to create our remaining "nested" VMs. We will also be starting several services (including iptables) and disabling the firewalld service. We will learn more about managing firewalls using iptables in Lab 6.
+We will now install the KVM package in order to create our remaining "nested" VMs. We will also be starting several services (including iptables). We will learn more about managing firewalls using iptables in Lab 6.
 
 **Perform the following steps:**
 
