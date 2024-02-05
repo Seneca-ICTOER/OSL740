@@ -649,7 +649,7 @@ On the other hand, if there were errors, then a `WARNING` message will appear wi
 3. Download the checking script by issuing the following Linux command:
 
 ```bash
-wget https://raw.githubusercontent.com/OPS245/debian-labs/main/lab1-check.bash
+wget https://raw.githubusercontent.com/jmcarman/osl740-debian-labs/main/lab1-check.bash
 ```
 
 4. Give that downloaded shell script file execute permissions (for the file owner).
