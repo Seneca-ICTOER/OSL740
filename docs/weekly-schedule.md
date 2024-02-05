@@ -44,7 +44,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                       | **Lecture Notes:**                                                     | Evaluation                                                         |
 | :-------------------------------------------------- | :--------------------------------------------------------------------- | :----------------------------------------------------------------- |
-| **Troubleshooting, Archiving, Package Management:** | - [Troubleshooting, Archiving, Package Management](/slides/w5-l1.pptx) | [Lab 3: Troubleshooting, Archiving, and Packages](/A-Labs/lab3.md) |
+| **Troubleshooting, Archiving, Package Management:** | - [Week 5 Slides](https://docs.google.com/presentation/d/e/2PACX-1vSKx4KW0SktkD8FnAEQZDeBp7hTe2QPOKb8JK3O-O5xjPCO2PpE81KDYSQRFn5SCmjwKV3AnQoBr4Wp/pub?start=false&loop=false&delayms=3000) |
 | - Common Troubleshooting Examples                   |                                                                        |                                                                    |
 | - Archiving Files                                   |                                                                        |                                                                    |
 | - Package Management                                |                                                                        |                                                                    |
