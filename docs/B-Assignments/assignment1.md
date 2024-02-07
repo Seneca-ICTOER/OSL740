@@ -6,7 +6,6 @@ description: OSL740 Assignment 1
 ---
 
 # Assignment 1
-## Note: This assignment is currently under development
 
 The purpose of the OSL740 assignments is to showcase your abilities in the course thus far, and conduct a bit of independent research. Some of what you'll be asked to complete will be familiar to you, while other parts will require you to think a bit and do some light Googling. It's expected you won't have all the answers right away, but you can find them. **As a result, unlike labs, your professor cannot provide any help or troubleshooting for your assignment.**
 
@@ -41,8 +40,33 @@ Use `apt` to accomplish the following:
 - Use systemctl to confirm the default firewall is running (Hint: the default firewall in Ubuntu is **ufw**)
 - Use `apt` to install `Chromium`.  You may need to use Google to accomplish this.
 
-## Building Chocolate Doom from source
-Use the steps outlined on [this page](https://www.chocolate-doom.org/wiki/index.php/Building_Chocolate_Doom_on_Debian) to build Chocolate Doom from source on your Ubuntu VM. Chocolate Doom is a port of the original [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)), which is a first person shooter video game from 1993. Warning: The game contains graphic content. While installing Doom, take a screenshot showing the build process.
+## Adding Users with a default home directory structure
+
+Look at the `useradd` man page to figure out how to create a default home directory structure for new users (hint: look at the -m & -k options). You will need to uncomment the skel variable in the useradd default values file.
+
+Create the following default home directory structure for new users:
+![Default Home Dir](/img/userhomea1.png)
+
+Create the following users, with the appropriate names. Don't forget to assign them a default password for security purposes.
+
+| Username | Full Name |
+| :--------- | :----------- |
+| tstark | Tony Stark |
+| bbanner | Bruce Banner |
+| thor | Thor Odinson |
+| srogers | Steve Rogers |
+| nromanoff | Natasha Romanoff |
+
+Create the group `avengers` and add the users you created to the `avengers` group.
+
+### Issue the following commands and take screenshots of the output for your submission
+```bash
+sudo tail -6 /etc/passwd
+```
+
+```bash
+sudo tail -6 /etc/group
+```
 
 ## Install a Second Linux Distribution as a Virtual Machine
 Create a new Linux Mint VM (Cinnamon Edition) in **KVM** as a nested virtual machine, using the following information. Use the default partitioning and installation options.
@@ -69,7 +93,7 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 - Output of the hostname command
 - Cinnamon desktop installed and in use
 - Chromium installed
-- Doom compiled from source
+- Users and group created, users added to the `avengers` group
 
 ### Linux Mint VM
 - Linux Mint VM installed
@@ -87,7 +111,7 @@ Submit the following screenshots on BlackBoard that show you've completed the wo
 | Linux Mint VM installed |	5	| |
 | Correct hostname (Seneca username) | 2 | |
 | Chromium installed in Mint VM |	2	| |
-| Doom compiled from source | 5 | |
+| Users created and added to the avengers group (on Ubuntu VM) | 5 | |
 | **Total** |	25	| |
 
 ## Resources
