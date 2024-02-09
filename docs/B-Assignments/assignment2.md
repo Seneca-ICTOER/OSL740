@@ -120,7 +120,7 @@ Write a second post on your blog including for example:
 Make your posts look professional. That means use good english, headings, bullet or numbered lists, etc.
 
 ## Submission
-On your **deb3** vm issue the following command to download the check script.
+On your **deb3** vm issue the following command to download the check script. You may need to install git using apt.
 
 ```bash
 git clone https://github.com/OPS245/a2-check
