@@ -88,9 +88,9 @@ FLUSH PRIVILEGES;
   - **HINT**: to figure out which port is required issue the command **grep ssh /etc/services**. The required port is the first one listed.
 
 ## Installing and Configuring Wordpress
-Wordpress (like most web applications) is not available in the Centos repositories, it must be downloaded and installed manually.
+Wordpress (like most web applications) is not available in the Debian repositories, it must be downloaded and installed manually.
 
-- Download the latest version of wordpress to your centos3 VM here (use wget): https://wordpress.org/latest.tar.gz (If you haven’t downloaded it already)
+- Download the latest version of wordpress to your deb3 VM here (use wget): https://wordpress.org/latest.tar.gz (If you haven’t downloaded it already)
 - Extract it into /var/www/html
 - Now we need to allow Apache to modify the wordpress installation. To do this use chown and chgrp with -R option to make the owner and group of every file and directory inside wordpress "www-data".
 - Check your work so far by pointing your web browser (Firefox on your host) to http://centos3/wordpress/
