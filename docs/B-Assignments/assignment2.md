@@ -23,37 +23,39 @@ This assignment will be completed inside your deb3 VM.
 **NOTE:** It is YOUR responsibility to backup your **deb3** VM for this assignment! You are required to frequently backup your VM prior to exiting a work session during this assignment. Your instructor will NOT accept the fact that your hard disk crashed and lost all of your work. If you properly backed up your VM images and xml configuration files to a USB, then you can purchase a new hard-disk or wipe and recreate your hard disk and restore your VMs.
 
 ## Updating and Installing Packages
-Before proceeding make sure you have updated your system using yum.
+Before proceeding make sure you have updated your system using apt.
 
-### Install the following packages using yum
-- **httpd**: this is the Apache web server software.
+### Install the following packages using apt
+- **apache2**: this is the Apache web server software.
 - **php**: this is the PHP server software, which allows Apache to run more complex websites.
 - **php-mysql**:  this is a PHP extension that allows PHP to use a MySQL server.
 - **mariadb-server**:  this is the database software.
 
 ### Configuring Apache
-- Start the httpd service using **systemctl**.
-- Ensure that the httpd service starts automatically during boot.
-- Confirm that you can connect to your web server using a web browser -- both from centos3 (you can test using **lynx**) as well as from the host (you can test using Firefox with centos3’s IP address). You should see the Apache Test Page.
+- Confirm the apache2 service is running using **systemctl**, and that it is set to start automatically on boot. Use the appropriate **systemctl** commands if either of these is not configured.
+- Confirm that you can connect to your web server using a web browser 
+
+  * from centos3 (you can test using **lynx**) 
+  * from the host (you can test using Firefox with centos3’s IP address). You should see the Apache Test Page.
+
 - If you can't connect to it from outside the machine - perhaps your firewall is blocking access to the web server.
 - Configure your firewall (iptables) to allow incoming http traffic:
 
   **HINT:** to figure out which port is required issue the command **grep http /etc/services**. You may need to pipe the output to head to see the top of the list. The required port is the first one listed.
 
 ### Configuring MariaDB
-- Start the mariadb service using **systemctl**.
-- Ensure that the mariadb service starts automatically during boot.
-- You may get messages after starting the mariadb service for the first time. Do not ignore these messages, it will tell you how to set a password and take other basic steps to secure the the mariadb server. Follow those instructions to set a password, recording the detail of what you do for later use.
+- Confirm the mariadb service is running using **systemctl**, and that it is set to start automatically on boot. Use the appropriate **systemctl** commands if either of these is not configured.
 
-  If you do not see any messages, issue the command **sudo msql_secure_installation** and follow the prompts onscreen to:
- Set a root password (set it to your Seneca username)
-  - Remove anonymous users
-  - Disallow root login remotely
-  - Remove the test database and access to it
-  - Reload the privilege tables
+-  Run the mysql secure installation script by issuing the command **sudo mysql_secure_installation** and follow the prompts onscreen to:
+  
+    * Set the root password to your Seneca username
+    * Remove anonymous users
+    * Disallow root login remotely
+    * Remove the test database and access to it
+    * Reload the privilege tables
 
 - This following part is challenging so take your time and read the instructions to make sure you do it properly, we have to set up a dedicated user and database for wordpress:
-  - Note: If you decide to download the wordpress package during this section, please use the 5.0.x version here (use wget): https://wordpress.org/wordpress-5.0.7.tar.gz
+  * Note: If you decide to download the wordpress package during this section, please use the latest version here (use wget): https://wordpress.org/latest.tar.gz
 
 - You will need to run the following commands in a centos3 terminal.
   - Your adminusername is root
@@ -88,16 +90,18 @@ FLUSH PRIVILEGES;
 ## Installing and Configuring Wordpress
 Wordpress (like most web applications) is not available in the Centos repositories, it must be downloaded and installed manually.
 
-- Download the latest 5.0.x version of wordpress to your centos3 VM here (use wget): https://wordpress.org/wordpress-5.0.7.tar.gz (If you haven’t downloaded it already)
+- Download the latest version of wordpress to your centos3 VM here (use wget): https://wordpress.org/latest.tar.gz (If you haven’t downloaded it already)
 - Extract it into /var/www/html
-- Now we need to allow Apache to modify the wordpress installation. To do this use chown and chgrp with -R option to make the owner and group of every file and directory inside wordpress "apache".
-- Check your work so far by pointing your web browser to http://centos3/wordpress/
-- If you get an error starting with "There doesn't seem to be a wp-config.php file", copy the wpconfig-sample.php file to wp-config.php and edit the new file:
+- Now we need to allow Apache to modify the wordpress installation. To do this use chown and chgrp with -R option to make the owner and group of every file and directory inside wordpress "www-data".
+- Check your work so far by pointing your web browser (Firefox on your host) to http://centos3/wordpress/
+- If you get an error starting with "There doesn't seem to be a wp-config.php file", copy the wp-config-sample.php file to wp-config.php and edit the new file:
   - Change the DB_NAME, DB_USER, DB_PASSWORD to the appropriate values. (Do not use the root account for your database connection! Marks will be deducted.)
 
-- Now go back to http://centos3/wordpress/ - you should see a Wordpress Welcome/Setup page.
-  - Set the title to Your Name's Blog. For example for me it would be "OPS235 Professor's Blog"
-  - Set the password to your Seneca ID.
+- Now go back to http://centos3/wordpress/ - you should see a Wordpress Welcome/Setup page. Follow the prompts on screen and enter the appropriate information.
+  - Use the **Database Name**, **Username** and **Password** you configured above in mariadb.
+  - Set the title to Your Name's Blog. For example for me it would be "OSL740 Professor's Blog"
+  - Set the username to your Seneca ID.
+  - Set the password to your Seneca ID. You may need to check the box to **Confirm use of weak password**
   - Set the email to your Seneca email address.
   - Click "Install Wordpress", you should see a "Success!" message.
 
