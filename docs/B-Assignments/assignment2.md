@@ -88,7 +88,7 @@ FLUSH PRIVILEGES;
   - **HINT**: to figure out which port is required issue the command **grep ssh /etc/services**. The required port is the first one listed.
 
 ## Installing and Configuring Wordpress
-Wordpress (like most web applications) is not available in the Debian repositories, it must be downloaded and installed manually.
+While Wordpress (like most web applications) is available in the Debian repositories, it is useful to learn how to download and install applications manually.
 
 - Download the latest version of wordpress to your deb3 VM here (use wget): https://wordpress.org/latest.tar.gz (If you haven’t downloaded it already)
 - Extract it into /var/www/html
