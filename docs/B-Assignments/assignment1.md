@@ -7,7 +7,7 @@ description: OSL740 Assignment 1
 
 # Assignment 1
 
-The purpose of the OSL740 assignments is to showcase your abilities in the course thus far, and conduct a bit of independent research. Some of what you'll be asked to complete will be familiar to you, while other parts will require you to think a bit and do some light Googling. It's expected you won't have all the answers right away, but you can find them. **As a result, unlike labs, your professor cannot provide any help or troubleshooting for your assignment.**
+The purpose of the OSL740 assignments is to showcase your abilities in the course thus far, and conduct a bit of independent research. Some of what you'll be asked to complete will be familiar to you, while other parts will require you to think a bit and do some light online research. It's expected you won't have all the answers right away, but you *can* find them. **As a result, unlike labs, your professor cannot provide any help or troubleshooting for your assignment.**
 
 **Weight**: 15% of your overall grade
 
