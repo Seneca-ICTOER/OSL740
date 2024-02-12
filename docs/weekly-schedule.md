@@ -53,8 +53,8 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks          | **Lecture Notes:**                                        | Evaluation                                           |
 | :------------------------------------- | :-------------------------------------------------------- | :--------------------------------------------------- |
-| **Managing Users, Groups & Services:** | - [Managing Users, Groups & Services](/slides/w6-l1.pptx) | [Lab 4: Users, Groups and Services](/A-Labs/lab4.md) |
-| - User Management                      | - [Managing Sudo](/slides/w6-l2.pptx)                     | [Assignment 1](/B-Assignments/assignment1.md)        |
+| **Managing Users, Groups & Services:** | - [Week 6 Slides](https://docs.google.com/presentation/d/e/2PACX-1vSKx4KW0SktkD8FnAEQZDeBp7hTe2QPOKb8JK3O-O5xjPCO2PpE81KDYSQRFn5SCmjwKV3AnQoBr4Wp/pub?start=false&loop=false&delayms=3000) | [Lab 4: Users, Groups and Services](/A-Labs/lab4.md) |
+| - User Management                      | | [Assignment 1](/B-Assignments/assignment1.md)        |
 | - Group Management                     |                                                           |                                                      |
 | - Service Status                       |                                                           |                                                      |
 | - Starting / Stopping Services         |                                                           |                                                      |
