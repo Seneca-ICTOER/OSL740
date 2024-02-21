@@ -73,7 +73,7 @@ Before proceeding make sure you have updated your system using apt.
   * from your Ubuntu VM (you can test using **lynx**) 
   * from the host (you can test using Firefox with your Ubuntu VM’s IP address). You should see the Apache Test Page.
 
-#### UPDATED TO HERE
+
 
 ### Configuring MariaDB
 - Confirm the mariadb service is running using **systemctl**, and that it is set to start automatically on boot. Use the appropriate **systemctl** commands if either of these is not configured.
@@ -116,11 +116,33 @@ GRANT ALL PRIVILEGES ON myblog.* TO wordpressusername@localhost IDENTIFIED BY 'p
 FLUSH PRIVILEGES;
 ```
 
-## Installing and Configuring Wordpress
-While Wordpress (like most web applications) is available in the Debian repositories, it is useful to learn how to download and install applications manually.
+## Configuring Wordpress
+Create a virtual host file in **/etc/apache2/sites-available/wordpress.conf** with the following contents:
+```bash
+Alias /blog /usr/share/wordpress
+<Directory /usr/share/wordpress>
+    Options FollowSymLinks
+    AllowOverride Limit Options FileInfo
+    DirectoryIndex index.php
+    Order allow,deny
+    Allow from all
+</Directory>
+<Directory /usr/share/wordpress/wp-content>
+    Options FollowSymLinks
+    Order allow,deny
+    Allow from all
+</Directory>
+```
 
-- Download the latest version of wordpress to your deb3 VM here (use wget): https://wordpress.org/latest.tar.gz (If you haven’t downloaded it already)
-- Extract it into /var/www/html
+Enable the new WordPress site
+```bash
+sudo a2ensite wordpress
+```
+
+- Use systemctl to restart the apache service.
+
+#### UPDATED TO HERE
+
 - Now we need to allow Apache to modify the wordpress installation. To do this use chown and chgrp with -R option to make the owner and group of every file and directory inside wordpress "www-data".
 - Check your work so far by pointing your web browser (Firefox on your host) to http://centos3/wordpress/
 - If you get an error starting with "There doesn't seem to be a wp-config.php file", copy the wp-config-sample.php file to wp-config.php and edit the new file:
