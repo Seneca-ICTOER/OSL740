@@ -2,14 +2,14 @@
 id: assignment2
 title: Assignment 2
 sidebar_position: 2
-description: TBD
+description: OSL740 Assignment 
 ---
 
 # Assignment 2
 ## Overview
 In Assignment 2 you will install configure a LAMP stack, which is an acronym that originally stood for Linux, Apache, MySQL and PHP. LAMP is a commonly used acronym and combination of technologies for hosting web based applications. In fact, newer technologies that have come along to replace elements of the LAMP stack tend to pick their name based on the letter in the acronym that they are providing services for (ie MariaDB or MongoDB, Perl or Python). You will then use this platform to install and host Wordpress (a popular free and open source content management system or CMS). You will also configure your firewall to further enhance the security of your computer system.
 
-This assignment will be completed inside your deb3 VM.
+This assignment will be completed inside your Ubuntu VM from Assignment 1.
 
 ## Important information
 **Weight**: 15% of your overall grade
@@ -18,9 +18,43 @@ This assignment will be completed inside your deb3 VM.
 
 **Submission**: You will be submitting your completed work through a series of screenshots on Blackboard. (See below.)
 
-**NOTE:** Do this assignment inside the **deb3** virtual machine and use the user (your user ie: **jason.carman** or **ataur.rahman**) you created in **Lab 4**.
+**NOTE:** Do this assignment inside the **ubuntu** virtual machine and use your user (ie: **jason.carman** or **ataur.rahman**) you created in **Assignment 1**.
 
-**NOTE:** It is YOUR responsibility to backup your **deb3** VM for this assignment! You are required to frequently backup your VM prior to exiting a work session during this assignment. Your instructor will NOT accept the fact that your hard disk crashed and lost all of your work. If you properly backed up your VM images and xml configuration files to a USB, then you can purchase a new hard-disk or wipe and recreate your hard disk and restore your VMs.
+**NOTE:** It is YOUR responsibility to backup your **ubuntu** VM for this assignment! You are required to frequently backup your VM prior to exiting a work session during this assignment. Your instructor will NOT accept the fact that your hard disk crashed and lost all of your work. If you properly backed up your VM images and xml configuration files to a USB, then you can purchase a new hard-disk or wipe and recreate your hard disk and restore your VMs.
+
+## Setting your Ubuntu VM to command line
+Using the appropriate systemctl commands, set your Ubuntu vm to boot into CLI (multi-user.target) by default. Either reboot or use isolate to set it to CLI. Do the rest of the assignment using this interface.
+
+## Setting a static IP & hostname
+### Set a static IP on your Ubuntu VM:
+- edit /etc/netplan/99_config.yaml (remember to use sudo)
+- substitute enp1s0 with the interface on your VM (confirm with ip a)
+- add the following configuration to the file:
+
+```yaml
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp1s0:
+      addressess:
+        - 192.168.245.5/24
+      routes:
+        - to: default
+          via: 192.168.245.1
+      nameservers:
+          addresses: [192.168.245.1]
+```
+
+Issue the following command to apply the changes. If you receive any error messages, check your configuration file.
+```bash
+sudo netplan apply
+```
+
+### Configuring local hostname resolution
+Edit /etc/hosts (on your Ubuntu VM and debhost) to allow local hostname resolution for **username-ubuntu** to **192.168.245.5**
+
+Test your network connectivity (both internally and to the internet) using ping before continuing.
 
 ## Updating and Installing Packages
 Before proceeding make sure you have updated your system using apt.
@@ -28,20 +62,18 @@ Before proceeding make sure you have updated your system using apt.
 ### Install the following packages using apt
 - **apache2**: this is the Apache web server software.
 - **php**: this is the PHP server software, which allows Apache to run more complex websites.
-- **php-mysql**:  this is a PHP extension that allows PHP to use a MySQL server.
-- **mariadb-server**:  this is the database software.
+- **php-mysql**: this is a PHP extension that allows PHP to use a MySQL server.
+- **mariadb-server**: this is the database software.
+- **wordpress**: a popular LAMP application used to build websites.
 
 ### Configuring Apache
 - Confirm the apache2 service is running using **systemctl**, and that it is set to start automatically on boot. Use the appropriate **systemctl** commands if either of these is not configured.
 - Confirm that you can connect to your web server using a web browser 
 
-  * from centos3 (you can test using **lynx**) 
-  * from the host (you can test using Firefox with centos3’s IP address). You should see the Apache Test Page.
+  * from your Ubuntu VM (you can test using **lynx**) 
+  * from the host (you can test using Firefox with your Ubuntu VM’s IP address). You should see the Apache Test Page.
 
-- If you can't connect to it from outside the machine - perhaps your firewall is blocking access to the web server.
-- Configure your firewall (iptables) to allow incoming http traffic:
-
-  **HINT:** to figure out which port is required issue the command **grep http /etc/services**. You may need to pipe the output to head to see the top of the list. The required port is the first one listed.
+#### UPDATED TO HERE
 
 ### Configuring MariaDB
 - Confirm the mariadb service is running using **systemctl**, and that it is set to start automatically on boot. Use the appropriate **systemctl** commands if either of these is not configured.
@@ -55,9 +87,8 @@ Before proceeding make sure you have updated your system using apt.
     * Reload the privilege tables
 
 - This following part is challenging so take your time and read the instructions to make sure you do it properly, we have to set up a dedicated user and database for wordpress:
-  * Note: If you decide to download the wordpress package during this section, please use the latest version here (use wget): https://wordpress.org/latest.tar.gz
 
-- You will need to run the following commands in a centos3 terminal.
+- You will need to run the following commands in a terminal on your Ubuntu VM.
   - Your adminusername is root
   - Your databasename is myblog
   - Your wordpressusername is your Seneca username
@@ -84,8 +115,6 @@ GRANT ALL PRIVILEGES ON myblog.* TO wordpressusername@localhost IDENTIFIED BY 'p
 ```bash
 FLUSH PRIVILEGES;
 ```
-- Configure your firewall (iptables) to allow incoming ssh traffic
-  - **HINT**: to figure out which port is required issue the command **grep ssh /etc/services**. The required port is the first one listed.
 
 ## Installing and Configuring Wordpress
 While Wordpress (like most web applications) is available in the Debian repositories, it is useful to learn how to download and install applications manually.
