@@ -222,12 +222,12 @@ Upload the following to the Assignment 2 folder on blackboard:
 
 | Task                                          | Mark   |
 | :-------------------------------------------- | :----- |
-| Correct packages installed                    | 2      |
+| System set to boot in multi-user.target (CLI) | 2      |
+| Static IP applied                             | 2      |
 | Apache configured and running                 | 3      |
 | MariaDB configured and running                | 3      |
 | Wordpress configured correctly                | 3      |
 | Wordpress showing in Firefox                  | 1      |
-| Static IP applied                             | 2      |
 | Blog accessed using local hostname resolution | 2      |
 | First blog post                               | 1      |
 | Second blog post                              | 1      |
