@@ -75,7 +75,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                   | **Lecture Notes:**                                       | Evaluation                                                        |
 | :---------------------------------------------- | :------------------------------------------------------- | :---------------------------------------------------------------- |
-| **Monitoring Disk Space, Intro to LVM**         | - [Monitoring Disk Space, `crontab`](/slides/w8-l1.pptx) | [Lab 5: Monitoring Disk Space - Investigation 1](/A-Labs/lab5.md) |
+| **Monitoring Disk Space, Intro to LVM**         | - [Week 8 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTIR5TdSYvyCe2G4b7QL4pYZ1X2Z0XCS1qoO7nbkqFqdlYS2bGpiynRrwHhxbRKKVNnVpWO2d_-dCVj/pub?start=false&loop=false&delayms=3000) | [Lab 5: Monitoring Disk Space - Investigation 1](/A-Labs/lab5.md) |
 | - Monitoring Hard Disk Space                    |                                                          |                                                                   |
 | - LVM - Definition                              |                                                          |                                                                   |
 | - Using LVM                                     |                                                          |                                                                   |
