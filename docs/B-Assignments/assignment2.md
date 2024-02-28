@@ -84,12 +84,17 @@ Before proceeding make sure you have updated your system using apt.
 
 - Configure your firewall with the following rules:
   - Add a rule to allow incoming http traffic.
-    - **HINT**: to figure out which port is required issue the command grep http **/etc/services**. You may need to pipe the output to head to see the top of the list. The required port is the first one listed.
+    - **HINT**: to figure out which port is required issue the command **grep http /etc/services**. You may need to pipe the output to head to see the top of the list. The required port is the first one listed.
 
   - Add a rule to allow incoming ssh traffic.
-    - **HINT**: to figure out which port is required issue the command grep ssh **/etc/services**. You may need to pipe the output to head to see the top of the list.
+    - **HINT**: to figure out which port is required issue the command **grep ssh /etc/services**. You may need to pipe the output to head to see the top of the list.
 
-  - Set the default policy to drop
+  - Set the default policy to **drop**.
+  
+  - Add the following rules to allow apt through the firewall, so you can install software and update the system.
+  
+    - ```bash sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT```
+    - ```bash sudo iptables -A INPUT -p udp --dport 53 -j ACCEPT```  
   - Save your firewall configuration
 
 ### Configuring Apache
