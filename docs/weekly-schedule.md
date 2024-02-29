@@ -112,13 +112,13 @@ description: Weekly Schedule Page for OSL740
 | Learning Objectives and Tasks                       | **Lecture Notes:**                                | Evaluation                                                  |
 | :-------------------------------------------------- | :------------------------------------------------ | :---------------------------------------------------------- |
 | **Setting Up, Using and Maintaining a DHCP Server** | - [Setting up a DHCP Server](/slides/w12-l1.pptx) | [Lab 8: Setup and Configure a DHCP Server](/A-Labs/lab8.md) |
-| - DHCP Server                                       |                                                   |                                                             |
+| - DHCP Server                                       |                                                    | [Assignment 2](/B-Assignments/assignment2.md)                                                            |
 
 ## Week 13
 
 | Learning Objectives and Tasks | **Lecture Notes:** | Evaluation                                    |
 | :---------------------------- | :----------------- | :-------------------------------------------- |
-|                               |                    | [Assignment 2](/B-Assignments/assignment2.md) |
+|                               |                   | Assignment 2 due |
 
 ## Week 14
 
