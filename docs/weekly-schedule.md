@@ -75,7 +75,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                   | **Lecture Notes:**                                       | Evaluation                                                        |
 | :---------------------------------------------- | :------------------------------------------------------- | :---------------------------------------------------------------- |
-| **Monitoring Disk Space, Intro to LVM**         | - [Monitoring Disk Space, `crontab`](/slides/w8-l1.pptx) | [Lab 5: Monitoring Disk Space - Investigation 1](/A-Labs/lab5.md) |
+| **Monitoring Disk Space, Intro to LVM**         | - [Week 8 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTIR5TdSYvyCe2G4b7QL4pYZ1X2Z0XCS1qoO7nbkqFqdlYS2bGpiynRrwHhxbRKKVNnVpWO2d_-dCVj/pub?start=false&loop=false&delayms=3000) | [Lab 5: Monitoring Disk Space - Investigation 1](/A-Labs/lab5.md) |
 | - Monitoring Hard Disk Space                    |                                                          |                                                                   |
 | - LVM - Definition                              |                                                          |                                                                   |
 | - Using LVM                                     |                                                          |                                                                   |
@@ -104,7 +104,7 @@ description: Weekly Schedule Page for OSL740
 | Learning Objectives and Tasks                 | **Lecture Notes:**                                        | Evaluation                                        |
 | :-------------------------------------------- | :-------------------------------------------------------- | :------------------------------------------------ |
 | **Setup and Configure Secure Shell Services** | - [Securing Network via SSH](/slides/w11-l1.pptx)         | [Lab 7: Setup and Configure SSH](/A-Labs/lab7.md) |
-| - Network Services                            | - [Configuring Firewalls (iptables)](/slides/W11-l2.pptx) |                                                   |
+| - Network Services                            | - [Configuring Firewalls (iptables)](/slides/W11-l2.pptx) | [Assignment 2](/B-Assignments/assignment2.md)                                                  | 
 | - SSH                                         |                                                           |                                                   |
 
 ## Week 12
@@ -112,13 +112,13 @@ description: Weekly Schedule Page for OSL740
 | Learning Objectives and Tasks                       | **Lecture Notes:**                                | Evaluation                                                  |
 | :-------------------------------------------------- | :------------------------------------------------ | :---------------------------------------------------------- |
 | **Setting Up, Using and Maintaining a DHCP Server** | - [Setting up a DHCP Server](/slides/w12-l1.pptx) | [Lab 8: Setup and Configure a DHCP Server](/A-Labs/lab8.md) |
-| - DHCP Server                                       |                                                   |                                                             |
+| - DHCP Server                                       |                                                    | |
 
 ## Week 13
 
 | Learning Objectives and Tasks | **Lecture Notes:** | Evaluation                                    |
 | :---------------------------- | :----------------- | :-------------------------------------------- |
-|                               |                    | [Assignment 2](/B-Assignments/assignment2.md) |
+|                               |                   | Assignment 2 due |
 
 ## Week 14
 

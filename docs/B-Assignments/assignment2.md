@@ -75,11 +75,32 @@ Before proceeding make sure you have updated your system using apt.
 - **php-mysql**: this is a PHP extension that allows PHP to use a MySQL server.
 - **mariadb-server**: this is the database software.
 - **wordpress**: a popular LAMP application used to build websites.
+- **nftables**: a firewall designed as a replacement for iptables. It supports iptables syntax and translates them into nftables rules.
+
+### Configuring Your Firewall (nftables)
+- Use systemctl to:
+  - stop ufw and prevent it from starting automatically on boot
+  - start nftables and configure it to start automatically on boot
+
+- Configure your firewall with the following rules:
+  - Add a rule to allow incoming http traffic.
+    - **HINT**: to figure out which port is required issue the command **grep http /etc/services**. You may need to pipe the output to head to see the top of the list. The required port is the first one listed.
+
+  - Add a rule to allow incoming ssh traffic.
+    - **HINT**: to figure out which port is required issue the command **grep ssh /etc/services**. You may need to pipe the output to head to see the top of the list.
+
+  - Set the default policy to **drop**.
+  
+  - Add the following rules to allow apt through the firewall, so you can install software and update the system.
+  
+    - ```bash sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT```
+    - ```bash sudo iptables -A INPUT -p udp --dport 53 -j ACCEPT```  
+  - Save your firewall configuration
 
 ### Configuring Apache
 
 - Confirm the apache2 service is running using **systemctl**, and that it is set to start automatically on boot. Use the appropriate **systemctl** commands if either of these is not configured.
-- Confirm that you can connect to your web server using a web browser
+- Confirm that you can connect to your web server using a web browser. **Note:** If you can't connect to it from outside the machine - perhaps your firewall is blocking access to the web server.
 
   - from your Ubuntu VM (you can test using **lynx**)
   - from the host (you can test using Firefox with your Ubuntu VM’s IP address). You should see the Apache Test Page.
@@ -130,7 +151,7 @@ CREATE USER wordpressusername@localhost IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON myblog.* TO wordpressusername@localhost IDENTIFIED BY 'password';
 ```
 
-- Reload the privilge tables:
+- Reload the privilege tables:
 
 ```bash
 FLUSH PRIVILEGES;
@@ -222,13 +243,14 @@ Upload the following to the Assignment 2 folder on blackboard:
 
 | Task                                          | Mark   |
 | :-------------------------------------------- | :----- |
-| System set to boot in multi-user.target (CLI) | 2      |
+| System set to boot in multi-user.target (CLI) | 1      |
 | Static IP applied                             | 2      |
+| nftables installed and configured correctly   | 2      | 
 | Apache configured and running                 | 3      |
 | MariaDB configured and running                | 3      |
 | Wordpress configured correctly                | 3      |
 | Wordpress showing in Firefox                  | 1      |
-| Blog accessed using local hostname resolution | 2      |
+| Blog accessed using local hostname resolution | 1      |
 | First blog post                               | 1      |
 | Second blog post                              | 1      |
 | Submitted correctly                           | 2      |
