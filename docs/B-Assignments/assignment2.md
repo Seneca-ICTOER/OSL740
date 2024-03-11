@@ -78,23 +78,29 @@ Before proceeding make sure you have updated your system using apt.
 - **nftables**: a firewall designed as a replacement for iptables. It supports iptables syntax and translates them into nftables rules.
 
 ### Configuring Your Firewall (nftables)
+
 - Use systemctl to:
+
   - stop ufw and prevent it from starting automatically on boot
   - start nftables and configure it to start automatically on boot
 
 - Configure your firewall with the following rules:
+
   - Add a rule to allow incoming http traffic.
+
     - **HINT**: to figure out which port is required issue the command **grep http /etc/services**. You may need to pipe the output to head to see the top of the list. The required port is the first one listed.
 
   - Add a rule to allow incoming ssh traffic.
+
     - **HINT**: to figure out which port is required issue the command **grep ssh /etc/services**. You may need to pipe the output to head to see the top of the list.
 
   - Set the default policy to **drop**.
-  
+
   - Add the following rules to allow apt through the firewall, so you can install software and update the system.
-  
-    - ```bash sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT```
-    - ```bash sudo iptables -A INPUT -p udp --dport 53 -j ACCEPT```  
+
+    - `sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT`
+    - `sudo iptables -A INPUT -p udp --dport 53 -j ACCEPT`
+
   - Save your firewall configuration
 
 ### Configuring Apache
@@ -245,7 +251,7 @@ Upload the following to the Assignment 2 folder on blackboard:
 | :-------------------------------------------- | :----- |
 | System set to boot in multi-user.target (CLI) | 1      |
 | Static IP applied                             | 2      |
-| nftables installed and configured correctly   | 2      | 
+| nftables installed and configured correctly   | 2      |
 | Apache configured and running                 | 3      |
 | MariaDB configured and running                | 3      |
 | Wordpress configured correctly                | 3      |
