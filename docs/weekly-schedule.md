@@ -85,9 +85,9 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                   | **Lecture Notes:**                                                                               | Evaluation                                                                                               |
 | :---------------------------------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| **Using Logical Volume Manager (LVM):**         |                                                                                                  | [Lab 5: Using LVM - Investigation 2](/A-Labs/lab5.md#investigation-2-managing-hard-disk-space-using-lvm) |
-| - Creating Shell Scripts to Flag Low Disk Space | - [Introduction to LVM](/slides/w9-l1.pptx)                                                      |                                                                                                          |
-|                                                 | - [Advanced uses of the `awk` command](/slides/w9-l2.pptx)                                       |                                                                                                          |
+| **Using Logical Volume Manager (LVM):**         | - [Introduction to LVM](https://docs.google.com/presentation/d/e/2PACX-1vRRcsVx37ueOuy-RXgfybXePC6KQYJDXEkQH_w268kC3gMURiUFr-zLPeGpdzT3V2JpbqrTNsvP67zZ/pub?start=false&loop=false&delayms=3000)                                                                                                   | [Lab 5: Using LVM - Investigation 2](/A-Labs/lab5.md#investigation-2-managing-hard-disk-space-using-lvm) | 
+| - Creating Shell Scripts to Flag Low Disk Space |                                                      |                                                                                                          |
+|                                                 |                                      |                                                                                                          |
 |                                                 | - Demonstration of Growing _/home_ partition using LVM: [YouTube](https://youtu.be/4fGQmw9RInYg) |                                                                                                          |
 
 ## Week 10
