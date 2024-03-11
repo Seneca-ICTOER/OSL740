@@ -33,7 +33,7 @@ Using the appropriate systemctl commands, set your Ubuntu vm to boot into CLI (m
 
 ### Set a static IP on your Ubuntu VM:
 
-- edit /etc/netplan/99_config.yaml (remember to use sudo)
+- use Nano to edit /etc/netplan/99_config.yaml (remember to use sudo)
 - substitute enp1s0 with the interface on your VM (confirm with ip a)
 - add the following configuration to the file:
 
