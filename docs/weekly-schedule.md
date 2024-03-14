@@ -85,7 +85,7 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                   | **Lecture Notes:**                                                                               | Evaluation                                                                                               |
 | :---------------------------------------------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| **Using Logical Volume Manager (LVM):**         | - [Week 9 slides](https://docs.google.com/presentation/d/e/2PACX-1vRRcsVx37ueOuy-RXgfybXePC6KQYJDXEkQH_w268kC3gMURiUFr-zLPeGpdzT3V2JpbqrTNsvP67zZ/pub?start=false&loop=false&delayms=3000)                                                                                                   | [Lab 5: Using LVM - Investigation 2](/A-Labs/lab5.md#investigation-2-managing-hard-disk-space-using-lvm) | 
+| **Using Logical Volume Manager (LVM):**         | - [Week 9 Slides](https://docs.google.com/presentation/d/e/2PACX-1vRRcsVx37ueOuy-RXgfybXePC6KQYJDXEkQH_w268kC3gMURiUFr-zLPeGpdzT3V2JpbqrTNsvP67zZ/pub?start=false&loop=false&delayms=3000)                                                                                                   | [Lab 5: Using LVM - Investigation 2](/A-Labs/lab5.md#investigation-2-managing-hard-disk-space-using-lvm) | 
 | - Creating Shell Scripts to Flag Low Disk Space |                                                      |                                                                                                          |
 |                                                 |                                      |                                                                                                          |
 |                                                 | - Demonstration of Growing _/home_ partition using LVM: [YouTube](https://youtu.be/4fGQmw9RInYg) |                                                                                                          |
@@ -95,7 +95,7 @@ description: Weekly Schedule Page for OSL740
 | Learning Objectives and Tasks                       | **Lecture Notes:**                                  | Evaluation                                 |
 | :-------------------------------------------------- | :-------------------------------------------------- | :----------------------------------------- |
 | **Configuring a Network Using Virtual Machines**    |                                                     | [Lab 6: Virtual Networks](/A-Labs/lab6.md) |
-| - Static Network Configuration                      | - [Creating a Virtual Network](/slides/w10-l1.pptx) |                                            |
+| - Static Network Configuration                      | - [Week 10 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTsESXAlEcROI1y13zpqtFACjj9mmsbds6n6QDRdY5H-ozIbSjnDjDYEbRIwSYtQyAI58-0X24j0d5R/pub?start=false&loop=false&delayms=3000) |                                            |
 | - Network Configuration with a DHCP client          |                                                     |                                            |
 | - Basic TCP/IP network commands: `ping`, `ip`, `ss` |                                                     |                                            |
 
