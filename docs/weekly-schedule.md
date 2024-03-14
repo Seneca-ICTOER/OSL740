@@ -94,8 +94,8 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                       | **Lecture Notes:**                                  | Evaluation                                 |
 | :-------------------------------------------------- | :-------------------------------------------------- | :----------------------------------------- |
-| **Configuring a Network Using Virtual Machines**    |                                                     | [Lab 6: Virtual Networks](/A-Labs/lab6.md) |
-| - Static Network Configuration                      | - [Week 10 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTsESXAlEcROI1y13zpqtFACjj9mmsbds6n6QDRdY5H-ozIbSjnDjDYEbRIwSYtQyAI58-0X24j0d5R/pub?start=false&loop=false&delayms=3000) |                                            |
+| **Configuring a Network Using Virtual Machines**    |  - [Week 10 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTsESXAlEcROI1y13zpqtFACjj9mmsbds6n6QDRdY5H-ozIbSjnDjDYEbRIwSYtQyAI58-0X24j0d5R/pub?start=false&loop=false&delayms=3000)                                                   | [Lab 6: Virtual Networks](/A-Labs/lab6.md) |
+| - Static Network Configuration                      |  |                                            |
 | - Network Configuration with a DHCP client          |                                                     |                                            |
 | - Basic TCP/IP network commands: `ping`, `ip`, `ss` |                                                     |                                            |
 
