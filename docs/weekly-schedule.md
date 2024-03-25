@@ -103,8 +103,8 @@ description: Weekly Schedule Page for OSL740
 
 | Learning Objectives and Tasks                 | **Lecture Notes:**                                        | Evaluation                                        |
 | :-------------------------------------------- | :-------------------------------------------------------- | :------------------------------------------------ |
-| **Setup and Configure Secure Shell Services** | - [Securing Network via SSH](/slides/w11-l1.pptx)         | [Lab 7: Setup and Configure SSH](/A-Labs/lab7.md) |
-| - Network Services                            | - [Configuring Firewalls (iptables)](/slides/W11-l2.pptx) | [Assignment 2](/B-Assignments/assignment2.md)                                                  | 
+| **Setup and Configure Secure Shell Services** | - [Week 11 Slides](https://docs.google.com/presentation/d/e/2PACX-1vTW9w04ugkrSSqRxvFkT7SRN-XrW_6c8CdPTkXVpN8aoKLXPZP_lOZ-9DPV_aYYuiEEfRsQ9i-1y44m/pub?start=false&loop=false&delayms=3000)         | [Lab 7: Setup and Configure SSH](/A-Labs/lab7.md) |
+| - Network Services                            | | [Assignment 2](/B-Assignments/assignment2.md)                                                  | 
 | - SSH                                         |                                                           |                                                   |
 
 ## Week 12
