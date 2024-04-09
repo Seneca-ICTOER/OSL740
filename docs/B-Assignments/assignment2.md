@@ -200,7 +200,7 @@ define('DB_USER', 'username');
 define('DB_PASSWORD', 'username');
 define('DB_HOST', 'localhost');
 define('WP_CONTENT_DIR', '/usr/share/wordpress/wp-content');
->
+?>
 ```
 
 - Open a web browser (ie Firefox) on your host and enter the following url: http://username-ubuntu/blog/wp-admin/install.php
