@@ -43,7 +43,7 @@ network:
   renderer: networkd
   ethernets:
     enp1s0:
-      addressess:
+      addresses:
         - 192.168.245.5/24
       routes:
         - to: default
